@@ -6,6 +6,6 @@ class Solution:
         for i in range(0, len(nums)):
             key = target - nums[i]
             if key in Dict:
-                return Dict[key], i
+                return Dict[[key], i]
             else:
                 Dict[nums[i]] = i
